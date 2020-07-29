@@ -18,6 +18,8 @@ def assign_rooms(attendee)
   room_assignments= []
   attendee.each_with_index(|attendee, index|)
     room_assignments.push("Hello, #{attendee}! You'll be assigned to room #{index+1}!") 
+  end 
+  return room_assignments
    
 end 
 
