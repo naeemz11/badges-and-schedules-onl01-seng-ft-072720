@@ -19,3 +19,5 @@ def assign_rooms(attendee)
   attendee.each do |names|
     room_assignments.push("Hello, #{names}! You'll be assigned to room ") 
 end 
+
+def printer(attendee)
